@@ -17,10 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import model.Sensibilidade;
 
-/**
- *
- * @author lucas
- */
+
 public class SensibilidadeController extends HttpServlet {
 
     private Sensibilidade sensibilidade;

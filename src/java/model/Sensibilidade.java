@@ -1,9 +1,6 @@
 package model;
 
-/**
- *
- * @author lucas
- */
+
 public class Sensibilidade {
     
     private String peso;

@@ -1,0 +1,1645 @@
+{
+  "id": "66e9ace9-4090-4243-a04f-d8052ddb96fd",
+  "version": "2.0",
+  "name": "BIC",
+  "url": "http://localhost:8080/BIC/",
+  "tests": [{
+    "id": "e23182a0-a8eb-4a6d-b795-21629c3b7bd8",
+    "name": "TestMagro_0",
+    "commands": [{
+      "id": "3e0a6a78-f0ae-4383-a9dc-000fff6fb495",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7021ad46-a2cf-4834-a644-24159d1633ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1657b5b0-f994-450c-bd39-382fd1f9cbc7",
+      "comment": "",
+      "command": "click",
+      "target": "id=magro",
+      "targets": [
+        ["id=magro", "id"],
+        ["name=txtPeso", "name"],
+        ["css=#magro", "css:finder"],
+        ["xpath=//input[@id='magro']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f120b997-9a84-4e19-b606-7c86a2be2601",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6134139-1372-48d0-b390-3bcf693cfc5a",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "149"
+    }, {
+      "id": "8fd08231-b688-4384-bcab-598671949736",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cc59761-f366-4c72-8653-762917393e39",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "d13349de-f87a-4cae-b962-f736fdfc1950",
+    "name": "TestMagro_1",
+    "commands": [{
+      "id": "38a8ef1a-9c46-4e75-9f9d-680f24ba035e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acbb344b-b04d-4abf-8bb1-b643bb87e093",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "983b4723-ad48-42b0-8d91-917920d9c8e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=magro",
+      "targets": [
+        ["id=magro", "id"],
+        ["name=txtPeso", "name"],
+        ["css=#magro", "css:finder"],
+        ["xpath=//input[@id='magro']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16647f6f-6196-4394-817c-07f105bfcebe",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1cf19a1-f301-401e-9872-067f25947dda",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "150"
+    }, {
+      "id": "6649a965-1af5-4263-b19f-e2346faf1b0b",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2c968c9-9bcb-4247-a393-dda333364d77",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "8ac91e79-7c9e-4272-b0ce-01dea66f1f17",
+    "name": "TestMagro_2",
+    "commands": [{
+      "id": "bd70c9ed-4ddd-4e9e-940e-e1985fe71182",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d94af7e7-997c-4212-8ee4-194b7397625b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a76fc05-a59c-41d5-ab20-727904e2179b",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(3)",
+      "targets": [
+        ["css=label:nth-child(3)", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Magro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38201a2f-5eb3-45c4-a438-91bad56c0f23",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95d58981-7b69-4048-b53a-18580488fd9d",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "200"
+    }, {
+      "id": "320d3477-80b7-4730-8ea7-6d4ad61ec847",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a639514-006e-4b1d-a05b-bfa103203d6e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "1ffcc61e-1440-4da7-83dc-11b7dbfaa63b",
+    "name": "TestMagro_3",
+    "commands": [{
+      "id": "f50ed78b-b244-43bf-bc11-5eaed73a17ba",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de6e0d1a-4b92-41cf-8d44-f5045febd826",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aef5555a-7b57-4a64-bba8-d2a44612018f",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(3)",
+      "targets": [
+        ["css=label:nth-child(3)", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Magro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86928be5-a536-40d1-bbb4-502b6ef23379",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "243aed4f-3f5e-47b5-ab05-127dea555d68",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "250"
+    }, {
+      "id": "7d1035fb-d0f4-45aa-8441-37efc6630dcf",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22096412-5335-4e3d-9c51-8ffe523bd581",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "316a4514-6477-4ae4-bfb0-df09872df44a",
+    "name": "TestMagro_4",
+    "commands": [{
+      "id": "eaf345bd-5322-464a-a90b-98ed83afe21b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "743fb9bf-6615-49e1-bbf0-2e103063d772",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f6450cc-0b4f-44ad-847b-9efd5fc8cba6",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(3)",
+      "targets": [
+        ["css=label:nth-child(3)", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Magro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "342e0ff8-8992-459d-bb5b-606c28d14187",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac98a6bc-3b80-4afc-86e2-1e4721ff8d4a",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "300"
+    }, {
+      "id": "7d9495fa-202e-448d-b95f-501179f2cecd",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bf21d1f-a2bd-43cb-806f-d62818ecf431",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "097e244d-b61a-4764-99cd-3de1e44c68d7",
+    "name": "TestMagro_5",
+    "commands": [{
+      "id": "535e6723-6939-4cbb-bfbf-89d6382b0fb8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "806c9e36-e79c-4b5d-a1e3-ec3815332c4c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8182ced1-908c-42f5-9130-15f4c8cfbc5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=magro",
+      "targets": [
+        ["id=magro", "id"],
+        ["name=txtPeso", "name"],
+        ["css=#magro", "css:finder"],
+        ["xpath=//input[@id='magro']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0116fe8-bfee-4218-8831-ca9e25b1e386",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6ec2112-8fb3-48bc-857e-1abfd816f8ea",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "350"
+    }, {
+      "id": "e4655dc1-ed67-4928-92f2-bc44c2176e0e",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c951c974-3158-45f5-b088-c71225ac2ae4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "d6ee42c1-3297-439d-a280-c7410ac8ca6a",
+    "name": "TestMagro_6",
+    "commands": [{
+      "id": "b64f4988-9d3d-4ad1-8ae8-a6dba71a4c93",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2d41c20-42b6-497c-8a9b-2db8d24ec92b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06272ee0-e8ed-4ca2-b4c8-70a1365bd188",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(3)",
+      "targets": [
+        ["css=label:nth-child(3)", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Magro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4320f40c-78af-4d46-8c97-bd456db285af",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8989a921-8e48-4502-a9f2-1054f2d189b7",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "400"
+    }, {
+      "id": "694bf7f6-ab43-47aa-87bd-e93d29eb4d18",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15363907-8d25-4cf8-b7e9-1a3f2245e96a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "7f686e6d-ee0d-4b7a-97b4-c629f53e9e28",
+    "name": "TestNormal_0",
+    "commands": [{
+      "id": "93fe3b57-6987-4e9d-a4b0-fd8c6190e4e2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11a0a960-e4dc-4948-8f0e-ae232e2298d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2307832e-8fce-4b8f-8a63-b35a7ec7340d",
+      "comment": "",
+      "command": "click",
+      "target": "id=normal",
+      "targets": [
+        ["id=normal", "id"],
+        ["css=#normal", "css:finder"],
+        ["xpath=//input[@id='normal']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ff071bc-ac2e-4498-a8aa-2b6c93d4dac8",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8a7cd2-b4e6-423e-8933-6570bc70d326",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "149"
+    }, {
+      "id": "436ddb55-d802-47ad-b204-612314a093d4",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7facf8b0-cc10-44e9-a8b1-74b77b6b1b86",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "43225aeb-8244-4893-b91b-f56bd3e2598f",
+    "name": "TestNormal_1",
+    "commands": [{
+      "id": "6d293ad8-5d03-4462-92a4-cbef0d5e6aaa",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2db9e23d-46e0-4819-8bd7-933e7727bea8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5ea8565-2427-480c-bdea-15f2a20171d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=normal",
+      "targets": [
+        ["id=normal", "id"],
+        ["css=#normal", "css:finder"],
+        ["xpath=//input[@id='normal']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0d9da0c-824b-4976-9968-c4b6f886ead6",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6726e14e-5c6a-442f-8dcf-7069e1b2db9e",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "150"
+    }, {
+      "id": "424e9ddb-c2ab-42fa-8bb4-bbe54e6995a3",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8621e2fe-e18a-4fbe-ba2e-463efb59e60b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "f0d6cba8-2aeb-4d52-9ff7-765b362f6288",
+    "name": "TestNormal_3",
+    "commands": [{
+      "id": "eaec4953-7abb-4612-9b76-73ef334c4d69",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9308068-0b2d-4b4f-8233-564ffbe0e6f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbf6d8bd-e534-45ad-91c8-56fd236b9ef2",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(6)",
+      "targets": [
+        ["css=label:nth-child(6)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Normal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6d67d3-3d4c-42e1-bf58-e68a872924ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85d7e967-a0df-4cbe-b8af-35809ed8c993",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "200"
+    }, {
+      "id": "3ec35c52-2bd0-496b-9c24-2bcda41c9e9e",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ddb4ead-fd73-4db1-b0e7-5e4c8944f6e9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "a9449a6a-aa45-4858-8ea9-758552f251de",
+    "name": "TestNormal_4",
+    "commands": [{
+      "id": "ed7c2129-15f8-40af-9ff6-0e8edb215ab6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eda5b695-d79b-49dc-b535-a6580efe3fff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d02d3a81-bbd0-4c36-a9be-7e3084cfffc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(6)",
+      "targets": [
+        ["css=label:nth-child(6)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Normal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6244cf0f-3ab8-438f-aa98-61655b35ff02",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a1f67d-cd4d-4a1b-b892-e9c02982a6b5",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "250"
+    }, {
+      "id": "5feff027-c22f-4c99-8682-801591938eb8",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "731c6cd7-0008-492b-afc0-a291e4925c30",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "78a3b7fd-4d96-4e12-abef-2837ddc38f0e",
+    "name": "TestNormal_6",
+    "commands": [{
+      "id": "000c29f7-38f0-4ef0-88d0-bd8364940e2b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4454072f-8322-47a7-b29c-a475a391ce6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "709a9f54-8a48-44f2-bc2d-ac7a83ca2f73",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(6)",
+      "targets": [
+        ["css=label:nth-child(6)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Normal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aee74e42-9161-4a57-ba04-5ae7ccd83bac",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b3e9d4f-e8df-493f-b0c6-077e9160e283",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "300"
+    }, {
+      "id": "829109dd-3a90-4023-a26d-96f58b8a370c",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5e8d729-9a97-41b6-a3f5-b87c9be1aa58",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "7733f2e8-fb01-4890-a90d-c62bf624454b",
+    "name": "TestNormal_8",
+    "commands": [{
+      "id": "6bf16284-8007-4491-b80e-776e48b37687",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "826c148e-f232-4243-8b73-cf98fca7dc29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5192db7-50fb-49ba-b72a-da3812391212",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(6)",
+      "targets": [
+        ["css=label:nth-child(6)", "css:finder"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Normal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f798276e-a320-45ec-a0cd-ec488e1f46c3",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f3cbf2-0069-4377-9841-0e814f57d437",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "350"
+    }, {
+      "id": "502c8478-33a7-425b-8bda-86600a1a5b71",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b408f76-12fc-4cc5-8921-713633c2c272",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "0888888e-610b-4ae0-8d55-53a3f452ef59",
+    "name": "TestNormal_9",
+    "commands": [{
+      "id": "0f6ce224-0369-478b-9234-78e0903e8953",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87bb3767-1a16-4678-a179-d45111f2b212",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "430bd068-4138-42f7-b965-b2732b8391f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=normal",
+      "targets": [
+        ["id=normal", "id"],
+        ["css=#normal", "css:finder"],
+        ["xpath=//input[@id='normal']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5dba301-863c-4df5-83b9-82c22575dc79",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "836b3df8-fc00-4b71-9f80-43825d484a24",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "400"
+    }, {
+      "id": "26af9203-599b-4726-8490-70b6569318f1",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af9f7149-9690-46e9-8696-521dfc870fea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "fb7b2ea9-10cd-40f6-9f6a-372b5bda813f",
+    "name": "TestObeso_0",
+    "commands": [{
+      "id": "64f63ce6-4c8a-4dd3-a836-af77b067eb92",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed4fbe30-79b1-4959-9826-e58118009edc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62b21496-a3e2-4d53-ac8d-278e1f859a95",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(9)",
+      "targets": [
+        ["css=label:nth-child(9)", "css:finder"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'Obeso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bae226c0-1a22-4d89-9308-048ec7ed8a49",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "316c0f66-9feb-431f-a6cc-3e07308fa440",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "149"
+    }, {
+      "id": "83cc9cb2-59a2-4b2a-936d-59b25a9a93a9",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfce0228-be17-4520-b0af-117911bc1d3d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "9893057c-1ae6-4b52-a7a5-474dfbbe6daf",
+    "name": "TestObeso_2",
+    "commands": [{
+      "id": "73b9e3a7-3c34-4994-81f2-d9303625d013",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a12d79e6-691d-4c82-b546-8533fcb5353c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dde0570-d3a1-4717-b407-e5be436f06f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(9)",
+      "targets": [
+        ["css=label:nth-child(9)", "css:finder"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'Obeso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef8df99f-f703-414b-85eb-882ab0682575",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "007ca20b-5dac-4180-abe2-c6e0663c30e9",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "150"
+    }, {
+      "id": "847458de-0b84-47a5-964d-91c6089561fa",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca77ec7f-f67a-4268-97fc-f0661ebe7bf0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "a55c4a57-af35-47ca-9824-206e20d233af",
+    "name": "TestObeso_4",
+    "commands": [{
+      "id": "7a785543-2380-488d-af83-7c324ebf0cd9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edfea725-05b0-4775-add0-ed7462a5095c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f375193-ba77-4ec8-a385-7bed43586823",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(9)",
+      "targets": [
+        ["css=label:nth-child(9)", "css:finder"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'Obeso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d44d90-a0b0-4a69-adb0-9fb53107a537",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16a10bd6-5a86-4e4a-8a6e-7a2a79da5b8e",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "200"
+    }, {
+      "id": "6cc24dc7-1496-40fb-8bbc-aa355acd3711",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbd64df2-78ba-44b1-bbb7-55637c6896e3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "747e5b3e-2297-41d8-b4b5-759b729b1c3b",
+    "name": "TestObeso_6",
+    "commands": [{
+      "id": "5288616b-6b26-4f5a-b7dc-7f9dffb6925e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ed2bcd0-23d4-47e8-8ea9-11dc966eb333",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dc0b372-3088-45b7-bdf9-d18687c3fd18",
+      "comment": "",
+      "command": "click",
+      "target": "id=obeso",
+      "targets": [
+        ["id=obeso", "id"],
+        ["css=#obeso", "css:finder"],
+        ["xpath=//input[@id='obeso']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7f6d1cf-4a0f-46f0-b91a-d251754a6872",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df8774ed-9d9e-4f86-902c-69988e5f9951",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "250"
+    }, {
+      "id": "4d8cd64a-8026-4abb-b218-6143624acc20",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00af580e-5d47-4a30-8f79-3cc625b63d58",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "01e67ade-86c6-4258-9589-421b945b055a",
+    "name": "TestObeso_8",
+    "commands": [{
+      "id": "a993a07b-4a72-432f-a1ec-d20b43b397c1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64cf2272-27a5-49aa-a173-af4cd3866955",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21a8c0c7-c18d-4084-8d78-1d37f18951ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(9)",
+      "targets": [
+        ["css=label:nth-child(9)", "css:finder"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'Obeso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29beccd1-f3b3-4fd6-8c48-264849801aea",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03310828-5d9c-43a3-94d4-0f7a0c79ac02",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "300"
+    }, {
+      "id": "3d615314-aa2d-414e-9019-c1674cfcfca5",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c11038e5-59e2-4055-8951-4d9d79b7e3b9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "31ef8af7-a8fa-4cb5-8fe8-8748ef391efc",
+    "name": "TestObeso_10",
+    "commands": [{
+      "id": "17c5671b-9f49-4194-a886-7cd611f76d59",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86e87cf4-d716-4611-8d0c-1e4ccb4e7af7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d40b9a75-5857-4790-8220-a842ce512b2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=obeso",
+      "targets": [
+        ["id=obeso", "id"],
+        ["css=#obeso", "css:finder"],
+        ["xpath=//input[@id='obeso']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91653b32-a034-41d9-813a-c807a5f6dcda",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe111ea1-622e-4037-86d6-588323b60aa8",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "350"
+    }, {
+      "id": "06843493-d05b-41d7-afa5-b6b9633b92d7",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29347386-5809-410b-8b47-fd477b796290",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }, {
+    "id": "f1bd54ab-5e87-4ce6-a97a-48a497db54c2",
+    "name": "TestObeso_12",
+    "commands": [{
+      "id": "5b045535-0cf3-4d96-a7e9-90ec5394b15d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/BIC/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46d2835a-ded1-4cbe-9ef1-537db51f9bec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0a35a2f-bc4f-4ba8-9866-58abc4748c9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(9)",
+      "targets": [
+        ["css=label:nth-child(9)", "css:finder"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'Obeso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "043cc395-cb9e-4347-ab4f-587fe2d0ec7d",
+      "comment": "",
+      "command": "click",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17282585-774b-4d9e-b83f-b56848e308b3",
+      "comment": "",
+      "command": "type",
+      "target": "name=numGlicemia",
+      "targets": [
+        ["name=numGlicemia", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='numGlicemia']", "xpath:attributes"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "400"
+    }, {
+      "id": "a0fdb322-d75c-44ff-a2d6-892e8f6aaaca",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnEnviar",
+      "targets": [
+        ["name=btnEnviar", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='btnEnviar']", "xpath:attributes"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae10b0b8-8822-4683-b42d-bf4b79d0e5d2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "name=frmSensibilidade",
+      "targets": [
+        ["name=frmSensibilidade", "name"],
+        ["css=form:nth-child(2)", "css:finder"],
+        ["xpath=//form[@name='frmSensibilidade']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Peso\\nMagro\\nNormal\\nObeso\\nGlicemia"
+    }]
+  }],
+  "suites": [{
+    "id": "566a684b-d20d-471a-92dd-08ea03d8e876",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/BIC/"],
+  "plugins": []
+}

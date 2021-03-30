@@ -13,6 +13,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import model.Sensibilidade;
 
 
 public class PesquisaSensibilidadeController extends HttpServlet {
@@ -29,7 +30,7 @@ public class PesquisaSensibilidadeController extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.setAttribute("resultado", SensibilidadeDAO.getInstancia().mostra());
+        request.setAttribute("resultado", Sensibilidade.mostra());
         RequestDispatcher view = request.getRequestDispatcher("/index.jsp");
         view.forward(request, response);
     }

@@ -100,7 +100,7 @@ public class SensibilidadeController extends HttpServlet {
             if (operacao.equals("Enviar")) {
                 sensibilidade = new Sensibilidade(peso, glicemia); //Criei
                 //categoria.gravar();
-                SensibilidadeDAO.getInstancia().calcula(peso, glicemia);
+                Sensibilidade.calcula(peso, glicemia);
             }
             RequestDispatcher view = request.getRequestDispatcher("PesquisaSensibilidadeController");
             view.forward(request, response);

@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dao;
+package model;
 
 
 import junit.framework.TestCase;
+import model.Sensibilidade;
 
 
-public class SensibilidadeDAOTest extends TestCase {
+public class SensibilidadeTest extends TestCase {
 
-    SensibilidadeDAO exemp;
+    Sensibilidade exemp;
 
     @Override
     protected void setUp() throws Exception {
         super.setUp();
-        exemp = new SensibilidadeDAO();
+        exemp = new Sensibilidade();  
     }
 
     public void testeSensibilidade_magro_0() {
